@@ -1,0 +1,99 @@
+/* GENERAL */
+
+  @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+* {
+    font-family: "Hanken Grotesk", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+h1 {
+    display: none;
+}
+
+p {
+    font-size: 1.125rem;
+    margin: 0;
+}
+
+
+/* ELEMENTS */
+
+.card-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 15px -5px #4EEDCA;
+    margin: 20px;
+}
+
+.main_chart {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 19em;
+}
+
+.main_chart--title {
+    color: hsl(241, 100%, 89%);
+    padding: 1.8em;
+    font-weight: 700;
+}
+
+.main_chart--circle {
+    border-radius: 100px;
+    padding: 1.75em;
+    height: 10.5em;
+    width: 10.5em;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    margin-bottom: 1em;
+}
+
+.main_chart--score {
+    color: white;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.main_chart--subscore {
+    color: hsla(221, 100%, 96%, 0.35);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.main_chart--comment {
+    color: white;
+    font-size: 1.75rem;
+    padding-bottom: 1em;
+}
+
+.main_chart--text {
+    color: hsla(241, 100%, 89%, 0.85);
+    font-size: 0.9rem;
+    padding: 1em 9em 3em 9em;
+}
+
+
+---
+
+.main_numbers {
+    display: flex;
+    flex-direction: column;
+    width: 25em;
+}
+
+.results {
+    display: flex;
+    justify-content: space-between;
+}
