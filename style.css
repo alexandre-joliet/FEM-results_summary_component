@@ -168,3 +168,38 @@ button:hover {
     cursor: pointer;
     transition: background-color 300ms;
 }
+
+
+/* MOBILE */
+
+@media screen and (max-width: 375px) {   
+    
+    body {
+        min-height: 100vh;
+    }
+
+    .card-main {
+        width: 100%;
+        margin: 0 0 2em 0;
+        flex-direction: column;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    
+    .main_chart {
+        width: 100%;
+        border-radius: 0 0 25px 25px;
+        height: ;
+    }
+
+    .main_chart--text {
+        font-size: 1rem;
+    }
+
+    .main_numbers {
+        padding: 2em 0 0 0;
+    }
+
+    .results {
+             margin-bottom: 1.5em;
+}
