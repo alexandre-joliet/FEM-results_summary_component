@@ -12,6 +12,7 @@ body {
     display: flex;
     margin: auto;
     justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -19,19 +20,20 @@ h1 {
 }
 
 p {
-    font-size: 1.125rem;
     margin: 0;
 }
 
 
-/* ELEMENTS */
+/* ELEMENTS - FIRST SECTION */
 
 .card-main {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
     box-shadow: 10px 10px 15px -5px #4EEDCA;
     margin: 20px;
+    border-radius: 25px;
 }
 
 .main_chart {
@@ -48,6 +50,7 @@ p {
 .main_chart--title {
     color: hsl(241, 100%, 89%);
     padding: 1.8em;
+    font-size: 1.25rem;
     font-weight: 700;
 }
 
@@ -81,19 +84,87 @@ p {
 .main_chart--text {
     color: hsla(241, 100%, 89%, 0.85);
     font-size: 0.9rem;
-    padding: 1em 9em 3em 9em;
+    padding: 1em 3.25em 3em 3.25em;
 }
 
 
----
+/* ELEMENTS - SECOND SECTION */
 
 .main_numbers {
     display: flex;
     flex-direction: column;
-    width: 25em;
+    justify-content: center;
+    width: 19em;
+    padding: 2em;
+}
+
+h2 {
+    font-size: 1.25rem;
+    margin: 0;
+    padding-bottom: 1.75em;
+}
+
+img {
+    width: 1.35em;
+}
+
+.results, .results--title-and-icon {
+    display: flex;
+    align-items: center;
+    gap: 0.75em;
 }
 
 .results {
-    display: flex;
     justify-content: space-between;
+    border-radius: 10px;
+    padding: 0 1em 0 1em;
+    height: 3.55em;
+    margin-bottom: 1em;
+    font-size: 0.8rem;
+}
+
+.results_reaction {
+    background-color: hsla(0, 100%, 67%, 0.1);
+    color: hsla(0, 100%, 67%, 0.8) ;
+}
+
+.results_memory {
+    background-color: hsla(39, 100%, 56%, 0.1);
+    color: hsla(39, 100%, 56%, 0.8);
+}
+
+.results_verbal {
+    background-color: hsl(166, 100%, 37%, 0.1);
+    color: hsl(166, 100%, 37%, 0.8)
+}
+
+.results_visual {
+    background-color: hsl(234, 85%, 45%, 0.1);
+    color: hsl(234, 85%, 45%, 0.8);
+}
+
+.results p {
+    font-size: 1rem;
+    color: hsla(224, 30%, 27%, 0.6);
+}
+
+.results strong {
+    color: hsla(224, 30%, 27%);
+}
+
+button {
+    background-color: hsl(224, 30%, 27%);
+    transition: background-color 300ms;
+    color: white;
+    font-size: 0.9rem;
+    border-radius: 25px;
+    border: none;
+    padding: 1em;
+    margin: 1.56em 0 0 0;
+}
+
+button:hover {
+    background-color: hsl(241, 81%, 54%);
+    cursor: pointer;
+    transition: background-color 300ms;
 }
