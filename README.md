@@ -1,4 +1,4 @@
-# Frontend Mentor - Stats preview card component solution
+# Frontend Mentor - Results summary component solution
 
 ## Table of contents
 
