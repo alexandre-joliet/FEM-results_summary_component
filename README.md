@@ -22,8 +22,8 @@
 
 ### Links
 
-- Solution URL: https://github.com/JojoRider/FEM-results_summary_component
-- Live Site URL: https://jojorider.github.io/FEM-results_summary_component/
+- Solution URL: https://github.com/alexandre-joliet/FEM-results_summary_component
+- Live Site URL: https://alexandre-joliet.github.io/FEM-results_summary_component/
 
 ---
 
